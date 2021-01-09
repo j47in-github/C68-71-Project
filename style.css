@@ -1,0 +1,23 @@
+#center-hor{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#center-ver{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.icon{
+    height: 100%;
+}
+
+#marqueeStyle{
+    top: 0;
+    z-index: 999999; 
+    position: sticky;
+    background-color: #171717;
+    color: #8E8E8E;
+}
