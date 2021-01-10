@@ -21,3 +21,8 @@
     background-color: #171717;
     color: #8E8E8E;
 }
+
+#view-all{
+    text-decoration: none;
+    margin-top: 30px;
+}
