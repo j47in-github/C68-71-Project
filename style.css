@@ -1,32 +1,7 @@
-#center-hor{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+input{
+    margin-bottom: 20px;
 }
 
-#center-ver{
-    display: block;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.icon{
-    height: 100%;
-}
-
-#marqueeStyle{
-    top: 0;
-    z-index: 999999; 
-    position: sticky;
-    background-color: #171717;
-    color: #8E8E8E;
-}
-
-#view-all{
-    text-decoration: none;
-    margin-top: 30px;
-}
-
-.ul li{
-    list-style: none;
+p{
+    margin-top: 20px;
 }

@@ -1,149 +1,75 @@
-<html>
-    <head>
-        <!-- Title -->
-        <title>School Website</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="style.css" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+<body style="text-align: center;">
+    <b><h1>Making a paragraph with the join function</h1></b>
+    <div style="width: 49%; float: left;">
+        <p>Paragraph 1</p>
+        <span>1.</span>
+        <input type="text" id="input1">
+        <br>
+    
+        <span>2.</span>
+        <input type="text" id="input2">
+        <br>
+    
+        <span>3.</span>
+        <input type="text" id="input3">
+        <br>
+    
+        <span>4.</span>
+        <input type="text" id="input4">
+        <br>
+            
+        <span>5.</span>
+        <input type="text" id="input5">
+        <br>
+    
+        <span>6.</span>
+        <input type="text" id="input6">
+        <br>
+    
+        <button onclick="writeParagraph1()">Write the First Paragraph</button>
+    
+    </div>
+    
+    <div style="width: 49%; float: right;">
+        <p>Paragraph 2</p>
+        <span>1.</span>
+        <input type="text" id="input7">
+        <br>
         
-        <!--Links-->
-        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> <!-- Decor -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Font -->
-        <link rel="stylesheet" type="text/css" href="style.css"> <!-- CSS sheet -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> <!-- Bootstrap -->
+        <span>2.</span>
+        <input type="text" id="input8">
+        <br>
         
-        <!--Scripts-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> <!-- Bootstrap -->
-    </head>
-    <body style=" background-color: #2C2C2C; margin-bottom: 10px;">
-        <nav class = "navbar-inverse" style="top: 0; z-index: 99999; position: sticky; background-color: #1E1E1E;">
-            <div class = "navbar-header">
-                <button type="button" data-toggle = "collapse" class="navbar-toggle" data-target="#myNavbar">
-                    <div class="icon-bar"></div>
-                    <div class="icon-bar"></div>
-                    <div class="icon-bar"></div>
-                </button>
-                <a class="navbar-brand" href="#">SECRHSSEMBSP</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="#gallery">Campus life</a></li>
-                    <li><a href="#gallery">Achievements</a></li>
-                    <li><a href="#gallery">What’s New</a></li>
-                    <li><a href="#gallery">Alumni</a></li>
-                    <li><a href="#gallery">Contact us</a></li>
-                </ul>
-            </div>
-            <div class="announcement">
-                <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
-                    ** Feel free to ask queries on info@secrhssembsp.org **
-                </marquee>
-            </div>
-        </nav>      
-        <div class = "starter" style = "text-align: center; background: #2C2C2C;">
-            <img src="http://www.secrhssembsp.org/images/IMG0102A.jpg" height=500 width="800" style="margin-top: 10px; margin-bottom: 10px;">
-        </div>
+        <span>3.</span>
+        <input type="text" id="input9">
+        <br>
         
+        <span>4.</span>
+        <input type="text" id="input10">
+        <br>
         
-        <div class="container" style="text-align: center; background: #2C2C2C">
-            <div class="page-header" style="color: #8E8E8E">
-                <h2>Campus Life</h2>
-            </div>
-            <div class="row">
-                    <div class="travel_mainDiv" style="color: #8E8E8E">
-                        <h4 class="text-capitalize"><kbd>Our School Provides:</kbd></h4>
-                        <h5>Spacious academic blocks surrounded with natural green environment.</h5>
-                        <h5>Spacious, well - ventilated classrooms.</h5>
-                        <h5>Airy, well-equiped laboratories for Physics, Chemistry, Biology & Computer  
-  Science.</h5>
-                        <h5>Rich experience of qualified and trained faculties.</h5>
-                        <h5>e-Book Library and well equiped Audio-Visual Room</h5>
-                        <h5>Interactive learning and teaching environment through LCD projectors for both
-  juniors and seniors.</h5>
-                        <h5>A Teacher's Resource Cell providing the teachers every conceivable material to
-  enhance self and enhance teaching.</h5>
-                        <h5>Student's Resource Centre equipped with interactive educational CDs / DVDs</h5>
-                        <h5>A Career Information Cell with a trained career counselor to keep senior school
-  student abreast of latest developments on the career front.</h5>
-                        <h5>Basketball, Volleyball and Badminton court along with a Table Tennis and Sports
-  ground.</h5>
-                        <h5>Pottery and Sculpture Arena ( Art & Craft ) for all groups.</h5>
-                        <h5>Activity corners ( Clubs ) in class rooms for juniors and seniors.
-</h5>
-                        <h5>Spoken English and Grammer corner for juniors.</h5>
-                        <h5>A well equipped Conference Room / Audio - Visual Room for student's conclave
-  meetings.</h5>
-                        <h5>RFID Biometrics Attendance System for both Teachers and Students.</h5>
-                    </div>
-                </div>
-            <div class="page-header" style="color: #8E8E8E">
-                <h2>Acheivements</h2>
-            </div>
-            <div class="row">
-                    <div class="travel_mainDiv" style="color: #8E8E8E">
-                        <h4 class="text-capitalize"><kbd>Mahek Chhabra and  S. Manikandan got the Consolation rank in State Level Debate Competition</kbd></h4>
-                        <h4 class="text-capitalize"><kbd>P. Govind Rao and Anuj Gangawani got the Consolation rank in State Level Science Exhibition</kbd></h4>
-                        <h4 class="text-capitalize"><kbd>Moupriya Das got the 1st place in National Level Drawing Competition</kbd></h4>
-                        <h4 class="text-capitalize"><kbd>Gaurav Sinha IX A participated in State Level Skating Competition and got the First place</kbd></h4>
-                        <h4 class="text-capitalize"><kbd>Abdul Qadir XI A participated in State Level Skating Competition and got the First place</kbd></h4>
-                        <h4 class="text-capitalize" id="view-all"><a href="http://www.secrhssembsp.org/activities.php"><kbd>View All</kbd></a></h4>
-                    </div>
-                </div>
-            <div class="page-header" style="color: #8E8E8E">
-                <h2>What's New</h2>
-            </div>
-            <div class="row">
-                    <div class="travel_mainDiv" style="color: #8E8E8E">
-                        <h4 class="text-capitalize"><kbd>Canteen Renovation</kbd></h4>
-                        <h4 class="text-capitalize">We just Renovated the School Canteen and introduced many new features like:</h4>
-                        <ul class="ul">
-                            <li><h5>New Snacks</h5></li>
-                            <li><h5>More Tables and Benches</h5></li>
-                            <li><h5>Updated the Prices</h5></li>
-                            <li><h5>More Dustbins</h5></li>
-                            <li><h5>More Utensils</h5></li>
-                            <li><h5>And much more!</h5></li>
-                        </ul>
-                        <h4 class="text-capitalize" style="padding-top: 30px;"><kbd>Classroom Expansion</kbd></h4>
-                        <h4 style="padding-bottom: 30px;">Because of the amount of requests from the parents. We have decided to expand the classrooms. The construction has already started. But it will Hopefully end soon. The Classrooms will become functional once the School reopens after the current Pandemic.</h4>
-                    </div>
-                </div>
-        </div>
+        <span>5.</span>
+        <input type="text" id="input11">
+        <br>
         
+        <span>6.</span>
+        <input type="text" id="input12">
+        <br>
+
+        <button onclick="writeParagraph2()">Write the Second Paragraph</button>
         
-        <div id="footer" style="text-align: center;  background-color: #1E1E1E;">
-            <span>
-                <div id="left-column" style="float: left; background-color: #1E1E1E;">
-                    <!-- Map -->
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14791.088233683366!2d82.1697406!3d22.0583133!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7bbed583119750eb!2sS%20E%20C%20Railway%20H%20S%20School%20(EM)Bilaspur%20r!5e0!3m2!1sen!2sin!4v1609489591738!5m2!1sen!2sin" width="1000" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                </div>
-                <div id="right-column" style="margin-top: 0px; padding-top: 10px; background-color: #1E1E1E;">
-                    <div>
-                        <h3 style="color: #8E8E8E">Principal:</h3>
-                        <h4 style="color: #8E8E8E">K.K.Mishra</h4>
-                    </div>
-                    
-                    <!-- Social Bar -->
-                    <span style="margin-top: 10px; background-color: #1E1E1E; height: 100%;">
-                        <a href="https://www.youtube.com/channel/UC1umHTokK-8-REEnlicin-g" style="margin-right: 5px;">
-                            <h1 class="fa fa-youtube"></h1>
-                        </a>
-                        <a href="https://www.facebook.com/144550762382170/">
-                            <h1 class="fa fa-facebook"></h1>
-                        </a>
-                        <a href="http://twitter.com/SECRHSSEMBSP" style="margin-left: 5px;">
-                            <h1 class="fa fa-twitter"></h1>
-                        </a>
-                    </span>
-                    
-                    <div>
-                    <!--Social Column-->
-                        <span style="color: #8E8E8E; background-color: #1E1E1E; height: 100%;">
-                            <img src="https://img.icons8.com/fluent-systems-filled/2x/gmail.png" style="height: 5%;">
-                            <p>info@secrhssembsp.org </p>
-                            <p style="margin-top: -10px">pplsecrhssembsp@gmail.com</p>
-                        </span>
-                    </div>
-                </div>
-            </span>           
-        </div>
-    </body>
+    </div>
+    <b><p id="paragraph1" style="margin-top: 20px;"></p></b>
+    <b><p id="paragraph2"></p></b>
+</body>
 </html>
